@@ -5,14 +5,102 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Hello World? - Every programmer once said</title>
+  <title>Hello World? - Every programmer once said. Welcome to personal website of Ashish Gaikwad</title>
+  <style>
+    body {
+      background-color: #fad390;
+      color: #0c2461;
+      background: linear-gradient(-30deg, #f8c291 40%, #fad390 40%) no-repeat;
+      min-height: 100vh;
+    }
+
+    a {
+      color: #079992;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: #38ada9
+    }
+
+    a:hover {
+      color: #38ada9
+    }
+
+    .beautify {
+      font-family: 'Source Serif Pro', serif;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .flex-row {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .flex-col {}
+
+    .take-80 {
+      width: 80%;
+      min-width: 320px;
+    }
+
+    h1 {
+      font-size: 28pt;
+      font-weight: 400;
+    }
+
+    address {
+      display: inline;
+    }
+
+    .header {
+      margin-top: 140px;
+      margin-bottom: 60px;
+    }
+
+    .ts-intro {
+      font-size: 18pt;
+      margin-bottom: 20px;
+    }
+
+    .ts-para {
+      font-size: 16pt;
+      margin-bottom: 18px;
+    }
+  </style>
+
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+
 </head>
 
-<body>
-  <section>
-    <header>
-      <h1>Hello World?</h1>
+<body class="flex-row">
+  <section class="beautify flex-col">
+    <header class="take-80 header">
+      <h1>Hi! I'm Ashish Gaikwad</h1>
     </header>
+    <main class="take-80">
+      <section class="ts-intro">I write. Mostly for
+        <a href="https://github.com/ashgkwd">machines</a> as my daily job and
+        <a href="https://medium.com/kryptonian/hello-from-ashish-originally-published-for-bitbyte-magazine-c10b96f7d66">
+          sometimes for humans
+        </a> as hobby. I like to make things, travel and meet new people.
+      </section>
+      <article class="ts-para">
+        I'm living and working in <address title="Bangalore (Bengaluru), India">Bangalore.</address> By day, I take care
+        of web and mobile products of <a href="http://sixerclass.com/" target="_blank">Varsito.</a>
+        In spare time, I also work on random projects of friends or drink coffee with them. Outside work, I enjoy well researched
+        long reads, animated infotainment / documentary videos, soothing music and calm walk.
+      </article>
+      <article class="ts-para">
+        As you are here and now know little bit about me, you may want to <a href="mailto:ashgkwd@gmail.com?subject=Lets Meet For Coffee"
+          title="ashgkwd@gmail.com">contact me
+        </a> or <a href="https://www.instagram.com/ash.gkwd/" target="_blank">explore more on social media about me.</a>
+        I like to meet new people and share stories. So feel free to say <em>Hi</em>
+      </article>
+    </main>
   </section>
 </body>
 
