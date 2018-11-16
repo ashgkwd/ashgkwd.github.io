@@ -1,146 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+      Hello World? - Every programmer once said. Welcome to personal website of
+      Ashish Gaikwad
+    </title>
+    <style>
+      body {
+        background-color: #e55039;
+        color: snow;
+        min-height: 100vh;
+      }
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Hello World? - Every programmer once said. Welcome to personal website of Ashish Gaikwad</title>
-  <style>
-    body {
-      background-color: #e55039;
-      color: snow;
-      min-height: 100vh;
-    }
+      a {
+        color: palegreen;
+        text-decoration: none;
+      }
 
-    a {
-      color: palegreen;
-      text-decoration: none;
-    }
+      a:visited {
+        color: palegreen;
+      }
 
-    a:visited {
-      color: palegreen
-    }
+      a:hover {
+        color: pink;
+      }
 
-    a:hover {
-      color: pink
-    }
+      .beautify {
+        font-family: "Roboto Slab", serif;
+        padding-left: 10px;
+        padding-right: 10px;
+        z-index: 100;
+      }
 
-    .beautify {
-      font-family: 'Roboto Slab', serif;
-      padding-left: 10px;
-      padding-right: 10px;
-      z-index: 100;
-    }
+      .flex-row {
+        display: flex;
+        flex-direction: row;
+      }
 
-    .flex-row {
-      display: flex;
-      flex-direction: row;
-    }
+      .flex-col {
+        display: flex;
+        flex-direction: column;
+      }
 
-    .flex-col {}
+      .take-text {
+        max-width: 580px;
+        min-width: 320px;
+        line-height: 36px;
+      }
 
-    .take-text {
-      max-width: 580px;
-      min-width: 320px;
-      line-height: 36px;
-    }
+      h1 {
+        font-size: 28pt;
+        font-weight: 400;
+      }
 
-    h1 {
-      font-size: 28pt;
-      font-weight: 400;
-    }
+      .fade {
+        opacity: 0.6;
+      }
 
-    .fade {
-      opacity: 0.6;
-    }
+      address {
+        display: inline;
+      }
 
-    address {
-      display: inline;
-    }
+      .header {
+        margin-top: 140px;
+        margin-bottom: 60px;
+      }
 
-    .header {
-      margin-top: 140px;
-      margin-bottom: 60px;
-    }
+      .ts-intro {
+        font-size: 18pt;
+        margin-bottom: 40px;
+      }
 
-    .ts-intro {
-      font-size: 18pt;
-      margin-bottom: 40px;
-    }
+      .ts-para {
+        font-size: 16pt;
+        margin-bottom: 36px;
+        text-align: justify;
+      }
 
-    .ts-para {
-      font-size: 16pt;
-      margin-bottom: 36px;
-      text-align: justify;
-    }
+      .graphics {
+        text-align: center;
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        height: inherit;
+        z-index: 1;
+        justify-content: space-around;
+        background: url("./l_lawliet.png") bottom no-repeat;
+      }
 
-    .graphics {
-      text-align: center;
-      display: flex;
-      flex-grow: 1;
-      flex-direction: column;
-      height: inherit;
-      z-index: 1;
-      justify-content: space-around;
-      background: url("./l_lawliet.png") bottom no-repeat;
-    }
+      .graphics-position {
+        position: absolute;
+        min-width: 220px;
+        max-width: 400px;
+        height: 100%;
+        right: 0;
+      }
 
-    .graphics-position {
-      position: absolute;
-      min-width: 220px;
-      max-width: 400px;
-      height: 100%;
-      right: 0;
-    }
-  </style>
+      .in-space {
+        margin: auto;
+      }
 
+      .big-day {
+        display: inline-block;
+        font-size: 0.19in;
+      }
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto Slab" rel="stylesheet">
+      .timer-day {
+        font-size: 0.17in;
+      }
+    </style>
 
-</head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto Slab"
+      rel="stylesheet"
+    />
+  </head>
 
-<body class="flex-row">
-  <section class="graphics-position">
-    <section class="graphics flex-col">
-
+  <body class="flex-col">
+    <section class="graphics-position">
+      <section class="graphics "></section>
     </section>
-  </section>
-  <section class="beautify flex-col">
-    <header class="take-80 header">
-      <h1><span class="fade">Hi! I'm</span> Ashish Gaikwad</h1>
-    </header>
-    <main class="take-text">
-      <section class="ts-intro">I write <span class="fade">⌨</span>. Mostly for
-        <a href="https://github.com/ashgkwd">machines <span class="fade">💻</span></a> as my daily job and
-        <a href="https://medium.com/kryptonian/hello-from-ashish-originally-published-for-bitbyte-magazine-c10b96f7d66">
-          sometimes for humans <span class="fade">👽</span>
-        </a> as hobby. I like to make things <span class="fade">🚀</span>, travel and meet new people.
-      </section>
-      <article class="ts-para">
-        I'm living and working in <address title="Bangalore (Bengaluru), India">Bangalore <span class="fade">📍</span>.</address>
-        By day, I take
-        care
-        of web and mobile products of <a href="http://sixerclass.com/" target="_blank">Varsito.</a>
-        In spare time, I work on random projects of friends or drink coffee with them. I enjoy well
-        researched
-        long reads, animated infotainment / documentary videos, soothing music <span class="fade">🎵</span> and calm
-        walk.
-      </article>
-      <article class="ts-para">
-        As you are here and now know little bit about me, you may want to <a href="mailto:ashgkwd@gmail.com?subject=Lets Meet For Coffee"
-          title="ashgkwd@gmail.com">contact me
-        </a> or <a href="https://www.instagram.com/ash.gkwd/" target="_blank">explore more on social media about me.</a>
-        I would like to meet you and share stories. So feel free to say <em>Hi 👋</em>
-      </article>
-    </main>
-  </section>
+    <section class="beautify ">
+      <header class="take-80 header">
+        <h1><span class="fade">Hi! I'm</span> Ashish Gaikwad</h1>
+      </header>
+      <main class="take-text">
+        <section class="ts-intro">
+          I write <span class="fade">⌨</span>. Mostly for
+          <a href="https://github.com/ashgkwd"
+            >machines <span class="fade">💻</span></a
+          >
+          as my daily job and
+          <a
+            href="https://medium.com/kryptonian/hello-from-ashish-originally-published-for-bitbyte-magazine-c10b96f7d66"
+          >
+            sometimes for humans <span class="fade">👽</span>
+          </a>
+          as hobby. I like to make things <span class="fade">🚀</span>, travel
+          and meet new people.
+        </section>
+        <article class="ts-para">
+          I'm living and working in
+          <address title="Bangalore (Bengaluru), India">
+            Bangalore <span class="fade">📍</span>.
+          </address>
+          By day, I take care of web and mobile products of
+          <a href="http://sixerclass.com/" target="_blank">Varsito.</a> In spare
+          time, I work on random projects of friends or drink coffee with them.
+          I enjoy well researched long reads, animated infotainment /
+          documentary videos, soothing music <span class="fade">🎵</span> and
+          calm walk.
+        </article>
+        <article class="ts-para">
+          As you are here and now know little bit about me, you may want to
+          <a
+            href="mailto:ashgkwd@gmail.com?subject=Lets Meet For Coffee"
+            title="ashgkwd@gmail.com"
+            >contact me
+          </a>
+          or
+          <a href="https://www.instagram.com/ash.gkwd/" target="_blank"
+            >explore more on social media about me.</a
+          >
+          I would like to meet you and share stories. So feel free to say
+          <em>Hi 👋</em>
+        </article>
+      </main>
+    </section>
 
-  <script>
-    (function () {
-      document.querySelector(".graphics-position").style.height = document.body.scrollHeight + "px";
-    })()
-  </script>
-</body>
+    <section class="beautify in-space">
+      <h2>Count Downs</h2>
+      <div id="timers"></div>
+    </section>
 
+    <script>
+      (function() {
+        document.querySelector(".graphics-position").style.height =
+          document.body.scrollHeight + "px";
+
+        const MILLI_PER_DAY = 1000 * 24 * 60 * 60;
+        const FORMAT_OPTIONS = {
+          weekday: "long",
+          year: "numeric",
+          month: "long",
+          day: "numeric"
+        };
+
+        const formatDate = date =>
+          date.toLocaleDateString("mr-IN", FORMAT_OPTIONS);
+
+        const comparableDate = date =>
+          new Date(
+            Date.UTC(date.getFullYear(), date.getMonth(), date.getDate())
+          );
+
+        const daysBetween = (start, end) =>
+          Math.floor(
+            (comparableDate(start) - comparableDate(end)) / MILLI_PER_DAY
+          );
+
+        setInterval(() => {
+          const today = new Date();
+          document.querySelector("#timers").innerHTML = [
+            new Date("7 Dec 2018"),
+            new Date("14 Dec 2018"),
+            new Date("25 Dec 2018"),
+            new Date("1 Jan 2019")
+          ]
+            .map(date => ({
+              date: formatDate(date),
+              days: daysBetween(date, today)
+            }))
+            .filter(({ days }) => days > -1)
+            .map(
+              ({ days, date }) =>
+                `<span class="timer-day"><span class="big-day">${days}<span> days to ${date}</span>`
+            )
+            .join(" &emsp; ");
+        }, 2000);
+      })();
+    </script>
+  </body>
 </html>
